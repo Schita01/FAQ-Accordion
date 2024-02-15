@@ -54,7 +54,7 @@
 .accordion {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 70%;
 }
 
 .accordionBtn {
@@ -64,11 +64,33 @@
     border: none;
     background-color: transparent;
     cursor: pointer;
+    margin-bottom: 10px;
+    font-size: 15px;
 
 }
 
+
+
+
+
 .accordionTextContainer {
-    margin-top: 10px;
+    /* margin-top: 10px; */
+    font-size: 12px;
+    /* line-height: 0px; */
+    /* height: 2rem !important; */
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 0px 0 5px 0px;
+    transition: all 0.5s;
+    transition: opacity 0.3s ease, max-height 0.3s ease;
+    border-bottom:  1px solid rgb(230, 230, 232);
+
+}
+
+.accordionText {
+    color: rgb(128, 120, 135);
+    line-height: 18px;
+    font-weight: 400;
 }
 
 .accordionText {
