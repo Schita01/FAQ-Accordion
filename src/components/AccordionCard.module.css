@@ -1,0 +1,76 @@
+.accordionCardComponent {
+    margin: 0 auto;
+    max-width: 920px;
+    width: 100%;
+    height: 525px;
+    background-image: url(./src/assets/component-background.svg);
+    background-color: #fff;
+    background-position: -565px -295px;
+    background-repeat: no-repeat;
+    box-shadow: 0 50px 50px -20px rgba(53,18,122,.497159);
+    border-radius: 23px;
+    display: flex;
+}
+
+.illustration {
+    width: 100%;
+    position: relative;
+}
+
+.illustrationBox {
+    position: absolute;
+    z-index: 999;
+    top: 200px;
+    left: -95px;
+}
+
+
+.illustrationWoman {
+    position: absolute;
+    top: 60px;
+    left: -77px;
+    -webkit-clip-path: inset(0 0 0 77px);
+    clip-path: inset(0 0 0 77px);
+}
+
+
+/* FAQ */
+
+.faq {
+    width: 100%;
+    padding-top: 65px;
+    padding-bottom: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.faqTitle {
+    color: #1d1e35;
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.accordion {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.accordionBtn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+
+}
+
+.accordionTextContainer {
+    margin-top: 10px;
+}
+
+.accordionText {
+    font-size: 12px;
+}
